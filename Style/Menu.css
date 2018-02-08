@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Pattaya:regular);
+#NavigationPanel
+{
+    font-family: 'Pattaya';
+    text-align: right;
+    position: absolute;
+    top: 2%;
+    left: 0%; 
+    height: 10%;
+    width: 97.5%;
+    color: rgb(102, 102, 102);
+}
+
+#StateImage
+{
+    position: absolute;
+    left: 1%;
+    height: 32px;
+    width: 32px;
+}

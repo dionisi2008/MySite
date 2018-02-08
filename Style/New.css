@@ -1,0 +1,101 @@
+#Block1
+{
+    position: absolute;
+    top: 5%;
+    left: 6%;
+    width: 20%;
+    height: 40%;
+}
+
+#Block2
+{
+    position: absolute;
+    top: 5%;
+    left: 28%;
+    width: 20%;
+    height: 40%;
+}
+
+#Block3
+{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 20%;
+    height: 40%;
+}
+
+#Block4
+{
+    position: absolute;
+    top: 5%;
+    left: 72%;
+    width: 20%;
+    height: 40%;
+
+}
+
+#Block5
+{
+    position: absolute;
+    top: 5%;
+    left: 72%;
+    width: 20%;
+    height: 40%;
+}
+
+
+/*Нижний ряд*/
+#Block6
+{
+    position: absolute;
+    top: 55%;
+    left: 6%;
+    width: 20%;
+    height: 40%;
+}
+
+#Block7
+{
+    position: absolute;
+    top: 55%;
+    left: 28%;
+    width: 20%;
+    height: 40%;
+}
+
+#Block8
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 20%;
+    height: 40%;
+
+}
+
+#Block9
+{
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    width: 20%;
+    height: 40%;
+    
+}
+
+#Block9
+{
+    position: absolute;
+    top: 55%;
+    left: 72%;
+    width: 20%;
+    height: 40%;
+    
+}
+
+.BlockFontColor
+{
+    background-color: rgba(137, 43, 226, 0.171);
+}
+

@@ -6,19 +6,10 @@
     "configurations": [
         {
             "type": "chrome",
-            "request": "attach",
-            "name": "Attach to Chrome",
-            "port": 9090,
-            "webRoot": "${workspaceFolder}"
-        },
-        {
-            "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:9090",
-            "port": 9090,
+            "url": "http://localhost:8080/Index.html",
             "webRoot": "${workspaceFolder}"
-            
         }
     ]
 }

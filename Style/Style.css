@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Bad+Script:regular);
-@import url(https://fonts.googleapis.com/css?family=Pattaya:regular);
 body
 {
     background-image: url("/Img/fon.png");
@@ -16,60 +15,76 @@ body
     box-shadow: 0 0 15px black;
     border-radius: 10px;
 }
-#Develop
+
+#FrameMenu
+        {
+            position: absolute;
+            width: 100%;
+            top: 2%;
+        }
+
+#NewsBlog
 {
    position: absolute;
-   top: 40%;
-   color: red;
-}
-#NavigationPanel
-{
-    font-family: 'Pattaya';
-    text-align: right;
-    position: absolute;
-    top: 2%;
-    left: 0%; 
-    height: 10%;
-    width: 97.5%;
-    color: rgb(102, 102, 102);
-}
-#StateImage
-{
-    position: absolute;
-    left: 1%;
-    height: 32px;
-    width: 32px;
-}
-#ImgInstagram
-{
-    position: absolute;
-    
-    right: 0%;
-    width: 25%;
-    height: 100%;
-}
-#InstagramLabel
-{
-    position: absolute;
-    color: rgb(102, 102, 102);
-    font-size: 18px;
-    font-weight: 600;
-}
-#ListLinks
-{    
-    position: absolute;
-    right: 5%;
-    top: 10%;
-    width: 20%;
-    height: 20%;
-    /*background-color: red;*/
-    
-}
-#PanelLinkInstagram
-{
-   position: absolute;
+   top: 10%;
    left: 0%;
    width: 100%;
-   height: 32px;
-   border: 1px solid yellow;
+   height: 85%;
+   /*background-color: rgba(137, 43, 226, 0.151);*/
+} 
+#NewBlog1
+{
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 0 90px rgb(14, 14, 14);
+    border-radius: 10px;
+}
+#NewBlogZagolovoc
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 255, 255, 0.068);
+}
+#NewBlogZagolovocName
+{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+    font-weight: 600;
+}
+#NewBlogZagolovocDate
+{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    font-size: 14px;
+    color: rgb(216, 216, 216);
+    /*font-weight: 600;*/
+}
+#NewBlogText
+{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 60, 255, 0.068);
+}
+#NewBlogTextLabel
+{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-size: 18px;
+    color: rgb(216, 216, 216);
+    font-weight: 600;
 }
