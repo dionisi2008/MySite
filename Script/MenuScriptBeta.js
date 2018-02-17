@@ -1,14 +1,24 @@
 window.onload;
+
+function LoadMenu(IdHtml)
+{
+    window.onload;
+    var HtmlTeg = document.getElementById(IdHtml).innerHTML
+    var GetObject = new XMLHttpRequest()
+    GetObject.open('GET', '/Objects/Menu.html');
+    GetObject.send(null);
+    document.getElementById(IdHtml).innerHTML = GetObject.responseText
+}
+
 function MenuKlic(Razdel)
 {
     switch (Razdel)
         {
             case 'Home':
-                window.open('http://localhost:8080/Index.html');
+            location.href = '/Index.html'
             break;
             case 'New':
-                document.open('http://localhost:8080/Index.html');
-                //location.href = '/New.html'
+            location.href = '/New.html'
             break;
             case 'Chat':
                 location.href = '/Chat.html'
