@@ -1,16 +1,12 @@
-window.onload;
 
-export function LoadMenu(IdHtml) /* Прогрузка обьекта */
+export default class LoadReszdel
 {
-    window.onload;
-    var HtmlTeg = document.getElementById(IdHtml).innerHTML
-    var GetObject = new XMLHttpRequest()
-    GetObject.open('GET', '/Objects/Menu.html');
-    GetObject.send(null);
-    document.getElementById(IdHtml).innerHTML = GetObject.responseText
+    
+    ListRezdel = ['Home', 'New', 'Chat', 'Photo', 'Info'];
+    
 }
 
-export function MenuKlic(Razdel) /* Переход на нужный раздел */
+ function MenuKlicer(Razdel) /* Переход на нужный раздел */
 {
     switch (Razdel)
         {
