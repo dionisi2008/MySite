@@ -10,8 +10,11 @@ var StringRazdels;
 
 function LoadObject(HTMLINFO)
 {
+        window.onload
+        {
+            document.getElementById('BaseForm').innerHTML = GetObject.responseText + document.getElementById('BaseForm').innerHTML;        
+        }
         
-        document.getElementById('BaseForm').innerHTML = GetObject.responseText + document.getElementById('BaseForm').innerHTML;        
 }
 
 
