@@ -1,8 +1,9 @@
+window.onload;
 
 var GetObject = new XMLHttpRequest();
 
 GetObject.addEventListener("load", LoadObject, false);
-GetObject.open('GET', '/Objects/Menu/Menu.html');
+GetObject.open('GET', './Objects/Menu/Menu.html');
 GetObject.send(null);
 
 var DateLoad = false;

@@ -1,5 +1,73 @@
-#TestDeBug
+@import url(https://fonts.googleapis.com/css?family=Bad+Script:regular);
+
+#SelectRazdelNew1
 {
+    position: absolute;
+    top: 30%;
+}
+
+#SelectRazdelNew2
+{
+    position: absolute;
+    top: 35%;
+}
+
+#SelectRazdelNew3
+{
+    position: absolute;
+    top: 40%;
+}
+
+#SelectRazdelNew4
+{
+    position: absolute;
+    top: 45%;
+}
+
+#SelectRazdelNew5
+{
+    position: absolute;
+    top: 50%;
+}
+
+#SelectRazdelNew6
+{
+    position: absolute;
+    top: 55%;
+}
+
+#SelectRazdelNew7
+{
+    position: absolute;
+    top: 60%;
+
+}
+
+#SelectRazdelNew8
+{
+    position: absolute;
+    top: 65%;
+}
+
+.ImgButtons
+{
+    right: 3%;
+    height: 3%;
+}
+
+#NewsBlog
+{
+   position: absolute;
+   top: 10%;
+   left: 0%;
+   width: 100%;
+   height: 85%;
+   /*background-color: rgba(137, 43, 226, 0.151);*/
+} 
+
+#BaseForm
+{
+    font-family: 'Bad Script';
     position:absolute;
     top: 10%;
     left: 10%;
@@ -10,9 +78,60 @@
     border-radius: 10px;
 }
 
-#SelectRazdelNew1
+#NewBlog1
+{
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 90%;
+    box-shadow: 0 0 90px rgb(14, 14, 14);
+    border-radius: 10px;
+}
+
+#NewBlogZagolovoc
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 255, 255, 0.068);
+}
+#NewBlogZagolovocName
 {
     position: absolute;
     top: 10%;
-    right: 10%;
+    right: 2%;
+    font-size: 20px;
+    color: rgb(216, 216, 216);
+    font-weight: 600;
+}
+#NewBlogZagolovocDate
+{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    font-size: 14px;
+    color: rgb(216, 216, 216);
+    /*font-weight: 600;*/
+}
+#NewBlogText
+{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 60, 255, 0.068);
+}
+#NewBlogTextLabel
+{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-size: 18px;
+    color: rgb(216, 216, 216);
+    font-weight: 600;
 }
