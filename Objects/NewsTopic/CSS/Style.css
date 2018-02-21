@@ -9,3 +9,10 @@
     box-shadow: 0 0 15px black;
     border-radius: 10px;
 }
+
+#SelectRazdelNew1
+{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
