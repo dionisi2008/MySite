@@ -1,5 +1,0 @@
-﻿/Index.html
-/New.html
-/Chat.html
-/Photo.html
-/Info.html

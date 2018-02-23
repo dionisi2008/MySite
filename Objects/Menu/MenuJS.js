@@ -1,25 +1,4 @@
-window.onload;
-
-var GetObject = new XMLHttpRequest();
-
-GetObject.addEventListener("load", LoadObject, false);
-GetObject.open('GET', './Objects/Menu/Menu.html');
-GetObject.send(null);
-
-var DateLoad = false;
-var StringRazdels;
-
-function LoadObject(HTMLINFO)
-{
-        window.onload
-        {
-            document.getElementById('BaseForm').innerHTML = GetObject.responseText + document.getElementById('BaseForm').innerHTML;        
-        }
-        
-}
-
-
-function WriteInfiObject(CollectionObject)
+function LoadTextBase(CollectionObject)
 {    
     CollectionObject.NavigationNew.innerText = StringRazdels[0]
     CollectionObject.NavigationPhoto.innerText = StringRazdels[1]
