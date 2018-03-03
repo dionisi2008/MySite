@@ -1,19 +1,8 @@
-#HeaderBlock
+#LoadingProgressContainer
 {
     position: absolute;
-    top: 12%;
-    left: 2%;
-    font-weight: 900;
-
-}
-
-#HeaderLabel
-{
-    color: rgb(73, 73, 73);
-    font-size: 25px;
-}
-#HeadAllLable
-{
-    color: rgb(141, 141, 141);
-    font-size: 20px;
+    background-color: red;
+    left: 30%;
+    top: 40%;
+    width: 20%;
 }
