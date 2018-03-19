@@ -80,3 +80,83 @@
     width: 30%;
     left: 35%;
 }
+
+#DeleteEvent
+{
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.007);
+}
+
+#DeleteEvent
+{
+    top: 65%;
+    background-color: white;
+    position: absolute;
+    right: 2%;
+    width: 30%;
+    height: 28%;    
+}
+
+#DeleteEventInfo
+{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    font-size: 15px;    
+    background-color: rgba(0, 17, 255, 0.281);
+}
+
+#DeleteEventNameEvent
+{
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    height: 23%;
+    text-align: left;
+    font-size: 15px;    
+    background-color: rgba(0, 225, 255, 0.836);
+}
+
+#DeleteEventDate
+{
+    position: absolute;
+    top: 36%;
+    width: 100%;
+    height: 23%;
+    text-align: left;
+    font-size: 15px;    
+    background-color: rgba(195, 0, 255, 0.836);
+}
+
+#DeleteEventQuest
+{
+    position: absolute;
+    top: 59%;
+    width: 100%;
+    height: 23%;
+    text-align: left;
+    font-size: 15px;    
+    background-color: rgba(255, 0, 149, 0.836);
+}
+
+#DeleteEventCheck
+{
+    position: absolute;
+    top: 63%;
+    width: 12%;
+    height: 12%;  
+    right: 0%;
+    background-color: rgba(255, 0, 149, 0.836);
+}
+
+#DeleteEventButtonDelete
+{
+    position: absolute;
+    top: 83%;
+    width: 22%;
+    right: 0%;
+}

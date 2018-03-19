@@ -8,11 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="Denk">
-        <h1>
-            Добавить цвет
-        </h1>
-    </div>
     <section id="NewEvent">
         <label for="" id="NewEventHeadLabel">Создание нового события</label>
         <h4 id="NewEventDateState">
@@ -31,9 +26,20 @@
     </section>
 
     <section id="DeleteEvent">
-        <label for="">
-            Удаление мероприятия.
+        <label for="" id="DeleteEventInfo">
+            Удаление мероприятия.  
         </label>
+        <label for="" id="DeleteEventNameEvent">
+            Имя мероприятия
+        </label>
+        <label for="" id="DeleteEventDate">
+            Дата проведения: 23.12.2015
+        </label>
+        <label for="" id="DeleteEventQuest">
+            Вы точно хотите удалить мероприятие?
+        </label>
+        <input type="checkbox" name="Yes" id="DeleteEventCheck" value="Точно?">
+        <input type="button" value="Удалить." id="DeleteEventButtonDelete">
     </section>
 </body>
 </html>
